@@ -1,9 +1,7 @@
-from dotenv import load_dotenv
-
 
 from langchain_openai import ChatOpenAI
 
-llm = ChatOpenAI(openai_api_key="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")
+llm = ChatOpenAI()
 
 from langchain.chat_models import ChatOpenAI
 
