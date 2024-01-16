@@ -4,6 +4,5 @@ langchain_experimental
 streamlit
 pandas
 streamlit
-os
 numpy
 copy
