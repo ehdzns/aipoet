@@ -228,7 +228,7 @@ def tbwaxlsx(xl):
 
 
 lll=tbwaxlsx('sample_4fin.xlsx')
-dff=lii[8]
+dff=lii['DA_구글'][4]
 agent = create_pandas_dataframe_agent(
     ChatOpenAI(temperature=0, 
                model='gpt-4-0613'),        # 모델 정의
