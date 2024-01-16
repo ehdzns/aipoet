@@ -240,7 +240,7 @@ an1=agent.run('가장 낮은 CPA가 나온 행의 1열 값만 출력')
 an2=agent.run('가장 낮은 CPA가 나온 행의 클릭수')
 an3=agent.run('가장 낮은 CPA가 나온 행의 지표 전일 대비 증감률 중 20% 이상 변화한 지표만')
 
-llm = ChatOpenAI(openai_api_key= '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')
+llm = ChatOpenAI
 
 st.title('This is a title')
 
