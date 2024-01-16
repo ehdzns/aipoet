@@ -227,7 +227,7 @@ def tbwaxlsx(xl):
     return di
 
 
-lll=tbwaxlsx('sample_4월_데일리 리포트_fin.xlsx')
+lll=tbwaxlsx('sample_4fin.xlsx')
 dff=lii[8]
 agent = create_pandas_dataframe_agent(
     ChatOpenAI(temperature=0, 
