@@ -1,7 +1,10 @@
-openai
 langchain
+langchain_experimental.agents
+langchain.agents.agent_types
+pandas
 streamlit
 pandas
+streamlit
+os
 numpy
 copy
-langchain_experimental
