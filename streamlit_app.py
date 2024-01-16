@@ -5,7 +5,7 @@ import pandas as pd
 import streamlit as st
 import pandas as pd
 import streamlit as st
-import os
+
 import pandas as pd
 import numpy as np
 import copy
@@ -197,7 +197,7 @@ def camp_df(excel_file):
 
 # 액셀 파일 입력시 시트이름:데이터프레임 리스트 로 구성된 딕셔너리 반환
 def tbwaxlsx(xl):
-    a=pd.read_excel(xl,None)
+    a=pd.read_excel(xl,None, engine='openpyxl')
     sn=list(a.keys())
     if 'Summary_대출_n' in sn:
         sn.remove('Summary_대출_n')
